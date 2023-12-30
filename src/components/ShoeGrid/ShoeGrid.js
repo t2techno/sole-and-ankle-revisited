@@ -32,7 +32,7 @@ const Wrapper = styled.div`
 `;
 
 const ShoeWrapper = styled.div`
-  min-width: 275px;
+  min-width: 300px;
   flex: 1;
 `;
 

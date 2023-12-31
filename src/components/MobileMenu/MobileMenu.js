@@ -13,6 +13,7 @@ const MobileMenu = () => {
       <Dialog.Trigger asChild>
         <UnstyledButton>
           <Icon id="menu" strokeWidth={2} size={24} />
+          <VisuallyHidden>Open Menu</VisuallyHidden>
         </UnstyledButton>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -21,6 +22,7 @@ const MobileMenu = () => {
           <DialogClose asChild>
             <UnstyledButton aria-label="Close">
               <Icon id="close" strokeWidth={2} size={24} />
+              <VisuallyHidden>Close Menu</VisuallyHidden>
             </UnstyledButton>
           </DialogClose>
           <Nav>

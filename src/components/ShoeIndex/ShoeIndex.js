@@ -39,7 +39,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
 };
 
 const DisappearingSelect = styled(Select)`
-  @media (max-width: ${(props) => props.theme.breakpoints.tablet}rem) {
+  @media (max-width: ${(props) => props.theme.breakpoints.phone}rem) {
     display: none;
   }
 `;
@@ -83,6 +83,10 @@ const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+
+  @media (max-width: ${(props) => props.theme.breakpoints.tablet}rem) {
+    align-items: flex-end;
+  }
 `;
 
 const Title = styled.h2`

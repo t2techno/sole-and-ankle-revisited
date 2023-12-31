@@ -39,8 +39,8 @@ const MainHeader = styled.div`
   display: flex;
   align-items: baseline;
   padding: 18px 32px;
-  height: 72px;
   border-bottom: 1px solid var(--color-gray-300);
+  overflow-x: auto;
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}rem) {
     display: none;
@@ -57,7 +57,7 @@ const StyledMobileHeader = styled(MobileHeader)`
 
 const Nav = styled.nav`
   display: flex;
-  gap: clamp(2rem, 1.8vw + 1rem, 5rem);
+  gap: clamp(1rem, 1.8vw + 1rem, 3.5rem);
   margin: 0px 48px;
 `;
 
